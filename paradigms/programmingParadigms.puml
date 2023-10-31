@@ -1,0 +1,47 @@
+@startuml
+
+abstract ProgrammingParadigms {}
+
+abstract Imperative{}
+abstract Declarative{}
+
+abstract Procedural{
+  + fortran
+  + basic
+  + c
+}
+abstract ObjectOriented{
+  + java
+  + csharp
+}
+abstract Structured{
+  + algol
+  + pascal
+}
+
+abstract Logic{
+  + prolog
+  + asp
+}
+abstract Functional{
+  + haskel
+  + javaScript
+  + python
+}
+abstract DataDriven{
+  + oz
+  + perl
+}
+
+Imperative <|-- ProgrammingParadigms
+Declarative <|-- ProgrammingParadigms
+
+Procedural <|-- Imperative
+ObjectOriented <|-- Imperative
+Structured <|-- Imperative
+
+Logic <|-- Declarative
+Functional <|-- Declarative
+DataDriven <|-- Declarative
+
+@enduml
