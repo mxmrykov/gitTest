@@ -1,37 +1,33 @@
 @startuml
 
-abstract ProgrammingParadigms {}
+object ProgrammingParadigms
 
-abstract Imperative{}
-abstract Declarative{}
+object Imperative
+object Declarative
 
-abstract Procedural{
-  + fortran
-  + basic
-  + c
-}
-abstract ObjectOriented{
-  + java
-  + csharp
-}
-abstract Structured{
-  + algol
-  + pascal
-}
+object Procedural
 
-abstract Logic{
-  + prolog
-  + asp
-}
-abstract Functional{
-  + haskel
-  + javaScript
-  + python
-}
-abstract DataDriven{
-  + oz
-  + perl
-}
+Procedural : exampleLang = "fortran"
+
+object ObjectOriented
+
+ObjectOriented : exampleLang = "java"
+
+object Structured
+
+Structured : exampleLang = "algol"
+
+object Logic
+
+Logic : exampleLang = "prolog"
+
+object Functional
+
+Functional : exampleLang = "haskel"
+
+object DataDriven
+
+DataDriven : exampleLang = "perl"
 
 Imperative <|-- ProgrammingParadigms
 Declarative <|-- ProgrammingParadigms
