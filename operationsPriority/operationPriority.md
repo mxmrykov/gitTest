@@ -4,16 +4,16 @@
 |---|---|
 | !,+,- | Highest |
 
-|*, /, %       |  Second |
+|*, /, %       |  Second 
 
-|    +, -      |  Third  |
+|    +, -      |  Third  
 
-| <, <=, >, >= |  Fourth |
+| <, <=, >, >= |  Fourth 
 
-|    ==, !=    |  Fifth  |
+|    ==, !=    |  Fifth  
 
-|     &&       |  Sixth  |
+|     &&       |  Sixth  
 
-|     ||       | Seventh |
+|     ||       | Seventh 
 
-| =(assigment) |  Lowest |
+| =(assigment) |  Lowest 
