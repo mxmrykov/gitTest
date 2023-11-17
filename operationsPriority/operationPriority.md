@@ -8,5 +8,5 @@
 | <, <=, >, >= |  Fourth 
 |    ==, !=    |  Fifth  
 |     &&       |  Sixth  
-|     ||       | Seventh 
+|     \|\|       | Seventh 
 | =(assigment) |  Lowest 
