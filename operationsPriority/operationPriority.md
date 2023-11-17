@@ -2,18 +2,11 @@
 
 | Операция | Приоритет |
 |---|---|
-| !,+,- | Highest |
-
+| !,+,- | Highest
 |*, /, %       |  Second 
-
 |    +, -      |  Third  
-
 | <, <=, >, >= |  Fourth 
-
 |    ==, !=    |  Fifth  
-
 |     &&       |  Sixth  
-
 |     ||       | Seventh 
-
 | =(assigment) |  Lowest 
